@@ -1,0 +1,6 @@
+
+
+<% feeder.items.each do |feed| %>
+	<img src="<%= feed.media_thumbnail_url %>"><br>
+	<%= link_to feed.title, feed.link %><br>
+<% end %>
