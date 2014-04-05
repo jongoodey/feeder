@@ -1,3 +1,4 @@
+require 'open-uri'
 module HomeHelper
   def feeder
     # rss = SimpleRSS.parse open('http://feeds.feedburner.com/37signals/beMH')
